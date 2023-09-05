@@ -5,8 +5,7 @@ def main():
     num_1 = 15
     num_2 = 12
 
-    print(f'sum of num_1 and num_2 is: {num_1 + num_2}')
-    print(f'differenc of num_1 and num_2 is: {num_1 - num_2}')
+    print(f'differenc of num_1 and num_2 is: {num_2 - num_1}')
 
 
 if __name__ == '__main__':
