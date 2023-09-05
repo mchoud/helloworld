@@ -2,13 +2,11 @@
 
 
 def main():
-    book = 'Dracula'
-    author = 'Bram Stoker'
-    release_year = 1897
-    goodreads_rating = 4.01
+    num_1 = 15
+    num_2 = 12
 
-    print(f'{book} is a novel by {author}, published in {release_year}.'
-          f' It has a rating of {goodreads_rating}  on goodreads.')
+    print(f'sum of num_1 and num_2 is: {num_1 + num_2}')
+    print(f'differenc of num_1 and num_2 is: {num_1 - num_2}')
 
 
 if __name__ == '__main__':
