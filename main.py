@@ -2,15 +2,17 @@
 
 
 def main():
-    float_variable = 1.25
+    float_variable = 5.0
     integer_variable = 55
 
-    print(f'{float_variable} converted to an integer is: {int(float_variable)}')
-    print(f'{integer_variable} converted to a fload is: {float(integer_variable)}')
+    print(f'the sum of {float_variable} and {integer_variable} is: '
+          f'{float_variable + integer_variable}')
+    print(f'the sum of {integer_variable} and {integer_variable} '
+          f'converted to integer is: {int(float_variable + integer_variable)}')
 
 
 if __name__ == '__main__':
     main()
 
-# 1.25 converted to an integer is: 1
-# 55 converted to a float is: 55.0
+# the sum of 5.0 and 55 is: 60.0
+# 55 and 55 converted to integer is: 60
