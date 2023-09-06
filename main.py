@@ -2,17 +2,15 @@
 
 
 def main():
-    num_1 = 15
-    num_2 = 12
+    float_variable = 1.25
+    integer_variable = 55
 
-    print(f'reminder of num_1 / num_2 is: {num_1 % num_2}')
+    print(f'{float_variable} converted to an integer is: {int(float_variable)}')
+    print(f'{integer_variable} converted to a fload is: {float(integer_variable)}')
 
 
 if __name__ == '__main__':
     main()
 
-# Dracula
-# Bram
-# 1897
-# 4.01
-# Hello, World!
+# 1.25 converted to an integer is: 1
+# 55 converted to a float is: 55.0
